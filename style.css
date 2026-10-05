@@ -1,0 +1,32 @@
+
+:root{--bg:#0D0A08;--card:#16110e;--ink:#F7F2EA;--mute:rgba(247,242,234,.62);--gold:#B8955A;--line:rgba(184,149,90,.22)}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.7 'Cormorant Garamond',Georgia,serif;font-weight:400}
+a{color:var(--gold)}a:hover{color:#d4b483}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;flex-wrap:wrap;gap:10px}
+.brand{font-size:22px;letter-spacing:.32em;color:var(--ink);text-decoration:none;font-weight:300}
+nav{display:flex;gap:20px}nav a{font-size:15px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--gold)}
+.hero{text-align:center;padding:96px 0 72px}
+.hero h1{font-size:clamp(54px,12vw,96px);letter-spacing:.3em;margin:0 0 28px 0;padding-left:.3em;font-weight:300}
+.hero p.tag{font-size:clamp(20px,3.6vw,26px);font-style:italic;color:var(--mute);max-width:520px;margin:0 auto}
+.soon{display:inline-block;margin-top:38px;padding:11px 26px;border:1px solid var(--gold);border-radius:30px;color:var(--gold);letter-spacing:.2em;font-size:14px;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding-bottom:64px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:0 0 6px 0;font-weight:400;font-size:22px;color:var(--gold)}
+.card p{margin:0;color:var(--mute);font-size:17px;line-height:1.55}
+.note{border-top:1px solid var(--line);padding:30px 0 10px;color:var(--mute);font-size:15px;line-height:1.6}
+main.doc{padding:44px 0 70px}
+main.doc h1{font-weight:300;font-size:40px;margin:0 0 4px 0}
+main.doc .meta{color:var(--mute);font-style:italic;margin:0 0 30px 0}
+main.doc h2{font-weight:400;font-size:25px;color:var(--gold);margin:40px 0 6px 0}
+main.doc p.sub{margin:22px 0 4px 0;color:var(--ink)}
+main.doc p,main.doc li{color:rgba(247,242,234,.86)}
+main.doc ul{padding-left:22px}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;text-align:center;color:var(--mute);font-size:14px;letter-spacing:.06em}
+footer a{margin:0 10px}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;color:var(--gold);font-size:21px}
+details p{margin:10px 0 0 0}
